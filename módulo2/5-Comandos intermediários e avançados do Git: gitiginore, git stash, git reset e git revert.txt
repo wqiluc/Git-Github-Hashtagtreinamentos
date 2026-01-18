@@ -1,0 +1,72 @@
+📌 COMANDOS INTERMEDIÁRIOS E AVANÇADOS DO GI
+
+🚀 GITIGNORE
+===========================
+• O que é?
+Arquivo usado para dizer ao Git quais arquivos ou pastas ele deve IGNORAR no versionamento.
+
+• Arquivo 📂: 
+.gitignore
+
+• Exemplos comuns dentro do .gitignore:
+node_modules/
+.env
+*.log
+__pycache__/
+
+• Para criar ⛏️:
+touch .gitignore
+
+• Para verificar arquivos ignorados✅:
+git status --ignored
+
+===========================================================
+
+📦 GIT STASH
+===========================
+• O que é?
+Serve para "guardar temporariamente" mudanças que ainda não estão prontas para commit.
+
+• Salvar mudanças✅:
+git stash
+
+• Ver lista de stash:
+git stash list
+
+• Aplicar o último stash:
+git stash apply
+
+• Aplicar e remover da lista❌:
+git stash pop
+
+• Limpar todos os stash🧹:
+git stash clear
+
+===========================================================
+
+🔄 GIT RESET
+===========================
+• O que é?
+Desfaz alterações no histórico ou no estado atual do repositório.
+
+• Voltar um arquivo para o estado do último commit🔄:
+git reset HEAD nome_do_arquivo
+
+• Desfazer alterações locais (antes do add)❌:
+git reset --hard
+
+• Voltar o repositório para um commit específico:
+git reset --hard <hash_do_commit>
+
+===========================================================
+
+↩️ GIT REVERT
+===========================
+• O que é?
+Cria um novo commit que DESFAZ um commit anterior sem apagar o histórico.
+
+• Reverter um commit específico:
+git revert <hash_do_commit>
+
+• Reverter sem abrir editor de mensagem:
+git revert -n <hash_do_commit>

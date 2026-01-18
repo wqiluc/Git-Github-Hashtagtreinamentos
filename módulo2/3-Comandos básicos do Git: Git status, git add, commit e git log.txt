@@ -1,0 +1,55 @@
+Comandos Básicos do Git — Essenciais no Dia a Dia
+=====================================================================
+🔍 git status — Veja o estado do seu projeto
+O comando git status mostra o que está acontecendo no seu repositório no momento. 👀
+Ele permite que você veja:
+Arquivos modificados ✏️
+Arquivos prontos para commit (staged) 🟢
+Arquivos ainda não rastreados pelo Git ⚪
+📌 Comando:
+git status
+👉 É o comando que você deve usar com frequência para “se localizar” no Git.
+=====================================================================
+➕ git add — Prepare suas alterações
+O git add move suas alterações do Working Directory para a Staging Area (área de preparação). 📥
+Isso significa: você escolhe o que realmente vai entrar no próximo commit.
+📌 Exemplos:
+git add .
+→ adiciona todas as alterações do projeto
+git add arquivo.js
+→ adiciona apenas um arquivo específico
+=====================================================================
+💾 git commit — Salve seu progresso
+O git commit cria um ponto no histórico do projeto com suas alterações. 🎯
+Cada commit deve ter uma mensagem clara explicando o que foi feito.
+📌 Exemplo:
+git commit -m "Corrigi erro no login"
+Um bom commit:
+É pequeno e objetivo
+Resolve uma tarefa específica
+Tem uma mensagem clara e profissional
+=====================================================================
+📜 git log — Veja o histórico do projeto
+O git log mostra todos os commits feitos no repositório, do mais recente ao mais antigo. ⏳
+Ele exibe:
+ID do commit
+Autor
+Data
+Mensagem do commit
+📌 Comando:
+git log
+Isso é útil para:
+Encontrar commits antigos
+Ver quem fez o quê
+Recuperar versões anteriores do código
+=====================================================================
+🔎 (Outro comando básico) → git diff — Veja o que mudou
+O git diff mostra exatamente quais linhas foram alteradas nos arquivos. 🧐
+É muito útil antes de fazer um commit para revisar seu código.
+📌 Comando:
+git diff
+Você pode usar para:
+Revisar mudanças antes do commit
+Encontrar erros em alterações recentes
+Comparar versões de arquivos
+=====================================================================

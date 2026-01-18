@@ -1,0 +1,52 @@
+📂 TRABALHANDO COM BRANCHES NO GIT 🌿
+Git permite que você trabalhe em diferentes versões do seu projeto ao mesmo tempo usando branches (ramificações). Isso é essencial para organizar desenvolvimento, testes e produção.
+
+=================================
+
+🌱 O QUE É UMA BRANCH?
+Uma branch é como uma linha do tempo alternativa do seu projeto.
+Ela permite que você desenvolva novas funcionalidades sem afetar o código principal.
+Por padrão, todo repositório começa com a branch principal chamada:
+👉 main (ou master em repositórios mais antigos)
+
+=================================
+
+🌿 GIT BRANCH — LISTAR E CRIAR BRANCHES
+
+🔹 Para ver todas as branches do seu projeto:
+git branch
+Você verá algo como:
+main
+O asterisco (*) indica em qual branch você está no momento.
+🔹 Para criar uma nova branch:
+git branch desenvolve
+Isso cria uma nova branch chamada "desenvolve", mas NÃO muda você para ela ainda.
+
+=================================
+🔀 GIT CHECKOUT — TROCAR DE BRANCH
+
+🔹 Para mudar para uma branch existente:
+git checkout desenvolve
+Agora você está trabalhando dentro da branch "desenvolve" 🌿
+🔹 Criar e já entrar na nova branch ao mesmo tempo:
+git checkout -b desenvolve
+Esse comando faz duas coisas:
+1️⃣ Cria a branch
+2️⃣ Já troca para ela automaticamente
+
+=================================
+
+🧠 BOA PRÁTICA COM BRANCHES
+💡 Sugestão comum de organização:
+main → código estável em produção 🚀
+desenvolve → código em desenvolvimento 🛠️
+feature/login → nova funcionalidade de login 🔐
+bugfix/correcao-menu → correção de bug 🐞
+
+=================================
+
+📌 RESUMO RÁPIDO
+git branch → lista branches 📋
+git branch nome → cria nova branch 🌿
+git checkout nome → muda de branch 🔀
+git checkout -b nome → cria e entra na branch 🚀

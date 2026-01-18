@@ -1,0 +1,185 @@
+# ⚙️ Principais Comandos do Git — Guia Prático
+
+=====================================================================
+
+## 💻 A — Comandos Essenciais de Terminal (Base para usar Git)
+
+### 📂 Navegação
+Esses comandos ajudam você a se mover entre pastas no seu computador:
+
+- `ls` → Lista arquivos e pastas do diretório atual 📄  
+- `cd pasta/` → Entra em uma pasta 📁  
+- `cd ..` → Volta para a pasta anterior ⬅️  
+
+=====================================================================
+
+### 🆕 Criação de Arquivos e Pastas
+
+- `mkdir pasta` → Cria uma nova pasta 📁✨  
+- `touch arquivo.txt` → Cria um novo arquivo vazio 📄  
+
+=====================================================================
+
+### ❌ Remoção de Arquivos e Pastas
+
+- `rm arquivo` → Remove um arquivo 🗑️  
+- `rm -rf pasta/` → Remove uma pasta e tudo dentro dela ⚠️ (cuidado!)
+
+=====================================================================
+
+## ⚙️ 🔧 Configuração Inicial do Git
+
+Antes de usar o Git, você precisa se identificar:
+
+- `git config --global user.name "Seu Nome"` → Define seu nome 🧑‍💻  
+- `git config --global user.email "seu@email.com"` → Define seu e-mail 📧  
+
+=====================================================================
+
+### 📦 Criando ou Copiando Repositórios
+
+- `git init` → Inicia um novo repositório Git local 🆕  
+- `git clone URL_DO_REPO` → Copia um repositório do GitHub para seu computador 🌐⬇️  
+
+=====================================================================
+
+## 📥 Adicionando e Commitando Alterações (Fluxo do Git)
+
+O Git trabalha com três áreas principais:
+
+👉 **Working Directory → Staging Area → Repository**
+
+=====================================================================
+
+### 📌 Preparando arquivos (Staging Area)
+
+- `git add .` → Adiciona todas as alterações 🟢  
+- `git add arquivo.js` → Adiciona apenas um arquivo específico 📄  
+
+=====================================================================
+
+### 💾 Salvando alterações (Commit)
+
+- `git commit -m "mensagem"` → Salva suas mudanças com uma mensagem explicativa ✅  
+
+Exemplo:
+
+=====================================================================
+
+### 🔍 Verificando o Status do Projeto
+
+- `git status` → Mostra quais arquivos foram modificados 👀  
+
+=====================================================================
+
+### 📜 Histórico de Commits
+
+- `git log` → Exibe o histórico de commits do projeto ⏳  
+
+=====================================================================
+
+## 🌿 Trabalhando com Branches
+
+Branches permitem trabalhar em novas funcionalidades sem mexer no código principal.
+
+=====================================================================
+
+### 🔎 Listar Branches
+
+- `git branch` → Mostra todas as branches do projeto 🌳  
+
+=====================================================================
+
+### ➕ Criar Nova Branch
+
+- `git branch nova-feature` → Cria uma nova branch ✨  
+
+=====================================================================
+
+🔄 Trocar de Branch
+
+- `git checkout nova-feature`  
+ou  
+- `git switch nova-feature`  
+
+Ambos servem para mudar de branch 🔁  
+
+=====================================================================
+
+### 🔗 Mesclar Branches (Merge)
+
+- `git merge nome-da-branch` → Junta sua branch com a principal 🔗  
+
+=====================================================================
+
+## 🌍 Sincronizando com Repositórios Remotos (GitHub)
+
+=====================================================================
+
+### 🔎 Verificar Repositórios Remotos
+
+- `git remote -v` → Mostra os repositórios conectados 🌐  
+
+=====================================================================
+
+### 📤 Enviar Alterações para o GitHub (Push)
+
+- `git push origin main` → Envia seus commits para o GitHub 🚀  
+
+=====================================================================
+
+### 📥 Receber Alterações do GitHub
+
+- `git pull origin main` → Baixa e já integra as mudanças 🔄  
+- `git fetch` → Baixa as mudanças sem aplicar automaticamente 📥  
+
+=====================================================================
+
+## 🔄 Desfazendo Alterações (Controle Total!)
+
+=====================================================================
+
+### ↩️ Reset Soft (mais leve)
+
+- `git reset --soft HEAD~1` → Desfaz o último commit, mas mantém as alterações 🟡  
+
+=====================================================================
+
+### ⚠️ Reset Hard (mais perigoso)
+
+- `git reset --hard HEAD~1` → Apaga o último commit e todas as alterações ❌  
+
+=====================================================================
+
+### 🔁 Revertendo um Commit Específico
+
+- `git revert ID_COMMIT` → Desfaz um commit sem apagar o histórico 🔄  
+
+=====================================================================
+
+## 🔁 Fluxo Completo de Trabalho com Git
+
+=====================================================================
+
+### 📥 Clonando um Projeto
+
+=====================================================================
+
+### 🌿 Criando e Trabalhando em uma Branch
+
+=====================================================================
+
+## 📦 Git Stash (Guardar alterações temporariamente)
+
+- `git stash` → Guarda alterações sem commit 🗃️  
+- `git stash pop` → Recupera as alterações guardadas 🔁  
+
+=====================================================================
+
+## 🚫 Gitignore (Arquivos que o Git deve ignorar)
+
+Exemplo de arquivo `.gitignore`:
+
+Isso evita que arquivos desnecessários sejam enviados ao GitHub ❌📁  
+
+=====================================================================
