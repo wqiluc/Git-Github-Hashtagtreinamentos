@@ -116,6 +116,7 @@ git commit -am "Mensagem" # Comita alterações
 git commit --amend         # Edita o último commit
 git branch                # Lista branches locais
 git branch <nome>         # Cria uma nova branch
+git push -u origin minha-branch    # envia a branch 'minha-branch' para o remoto 'origin'
 git checkout <nome>       # Muda para outra branch
 git checkout -b <nome>    # Cria e muda para nova 
 git merge <branch>        # Faz merge de outra branch
