@@ -1,0 +1,89 @@
+📌 RESOLVENDO CONFLITOS DIRETAMENTE NO GITHUB 🐈‍⬛
+===========================================================
+
+🔧 QUANDO VOCÊ RESOLVE CONFLITOS NO GITHUB?
+===========================
+• Quando você tenta dar merge em um Pull Request e o GitHub mostra:  
+  "This branch has conflicts that must be resolved" ❌  
+
+• Isso acontece quando a branch do PR divergiu da branch principal  
+
+• O GitHub permite resolver conflitos sem usar o terminal 💻  
+
+===========================================================
+
+1️⃣ ABRIR O PULL REQUEST COM CONFLITO ⚠️
+===========================
+• Vá até o Pull Request no GitHub 👁️‍🗨️  
+• Você verá um aviso em amarelo ou vermelho indicando conflito 🚨  
+• Clique no botão:
+  "Resolve conflicts✅"
+
+===========================================================
+
+2️⃣ ENTRAR NO EDITOR DE CONFLITOS DO GITHUB
+===========================
+Após clicar em "Resolve conflicts", você verá algo como:
+
+Código da sua branch do PR
+
+Isso significa:
+• HEAD = código atual da branch de destino  
+• Abaixo do ======= está o código da sua branch  
+
+===========================================================
+
+3️⃣ EDITAR MANUALMENTE O CÓDIGO 🧑🏻‍💻
+===========================
+Você deve:
+• Remover as marcações:
+  <<<<<<< HEAD  
+  =======  
+  >>>>>>> sua-branch  
+
+• Deixar o código final exatamente como você quer que fique ✅  
+
+Opções comuns:
+• Manter APENAS o código da sua branch  
+• Manter APENAS o código da main  
+• Mesclar ambas das duas versões  
+
+===========================================================
+
+4️⃣ MARCAR COMO RESOLVIDO☑
+===========================
+Após editar o arquivo:
+
+• Clique em:
+  "Mark as resolved" ✅  
+
+• Faça isso para TODOS os arquivos em conflito⚠️  
+
+===========================================================
+
+5️⃣ FINALIZAR A RESOLUÇÃO DO CONFLITO
+===========================
+Depois de resolver todos os conflitos:
+
+• Clique em:
+  "Commit merge"🖊️
+
+Isso cria um commit automático resolvendo o conflito 📝  
+
+===========================================================
+
+6️⃣ VOLTAR AO PULL REQUEST🔄
+===========================
+Após o commit:
+• O aviso de conflito desaparece ✅  
+• Agora o botão "Merge pull request" fica disponível novamente  
+• Você (ou o mantenedor) pode finalizar o merge  
+
+===========================================================
+
+💡 BOAS PRÁTICAS AO RESOLVER CONFLITOS
+===========================
+• Leia atentamente as duas versões antes de decidir;
+• Evite apagar código importante sem revisar;
+• Se tiver dúvida, peça ajuda no próprio PR 💬; e  
+• Teste o código depois do merge sempre que possível.

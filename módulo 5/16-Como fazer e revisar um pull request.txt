@@ -1,0 +1,144 @@
+📌 COMO FAZER E REVISAR UM PULL REQUEST (PR) NO GITHUB
+===========================================================
+
+1️⃣ CRIAR UMA BRANCH PARA SUAS ALTERAÇÕES
+===========================
+# Sempre crie uma branch nova para cada feature ou bugfix
+git checkout -b minha-feature      
+# cria e muda para a branch 'minha-feature'
+
+
+2️⃣ FAZER ALTERAÇÕES E COMITAR 🖊️
+===========================
+# Faça alterações no código
+git add .                          
+# adiciona arquivos modificados ao staging
+git commit -m "Adiciona funcionalidade X"  
+ # comita alterações com mensagem clara
+
+
+3️⃣ ENVIAR A BRANCH PARA O REPOSITÓRIO REMOTO
+===========================
+git push -u origin minha-feature   
+ publica a branch no GitHub e define upstream
+
+
+4️⃣ ABRIR O PULL REQUEST
+===========================
+1. Acesse o repositório no GitHub;  
+2. Clique em "Compare & pull request" (aparece após enviar a branch);
+3. Preencha:
+   - Título do PR: resumido e claro (ex: "Adiciona login via JWT"); e 
+   - Descrição: explique **o que mudou e por quê**.
+4. Escolha a **branch de destino** (geralmente `main` ou `develop`); e
+5. Clique em **Create Pull Request**. ✅
+
+
+5️⃣ REVISAR UM PULL REQUEST 🖊️
+===========================
+• Analise as alterações de código no GitHub na aba "Files changed"  
+• Verifique:
+  - Se a lógica está correta;
+  - Se não há bugs; e
+  - Se o código segue boas práticas e padrões do projeto.
+
+• Adicione comentários ou sugestões de melhoria clicando no botão "+" ao lado da linha
+• Aprove o PR clicando em "Approve" ou peça mudanças com "Request changes"
+
+
+6️⃣ FAZER MERGE DO PULL REQUEST
+===========================
+• Depois de aprovado, clique em **Merge pull request**  
+• Escolha:
+  - **Create a merge commit** → mantém histórico completo  
+  - **Squash and merge** → junta todos os commits em um só  
+  - **Rebase and merge** → aplica commits da branch em cima da branch de destino  
+• Confirme clicando em **Confirm merge**
+
+7️⃣ LIMPAR BRANCHES APÓS O MERGE 🧹
+===========================
+# Deletar branch local ❌
+git branch -D minha-feature
+
+# Deletar branch remota
+git push origin --delete minha-feature
+
+
+## 🏷️ LABELS (ETIQUETAS) NO GITHUB
+
+### 🔹 O que são Labels?
+Labels (etiquetas) são marcadores usados no GitHub para **categorizar Issues e Pull Requests**, facilitando organização, triagem e colaboração no projeto.
+
+Elas ajudam times e colaboradores a entender rapidamente:
+- O tipo da tarefa  
+- A prioridade  
+- O status  
+- A área do projeto afetada  
+
+
+### 🔹 Labels padrão mais comuns
+
+| Label | Emoji | Significado |
+|------|------|------------|
+| `bug` | 🐞 | Algo que não está funcionando |
+| `enhancement` | ✨ | Nova funcionalidade ou melhoria |
+| `documentation` | 📚 | Alterações na documentação |
+| `help wanted` | 🆘 | Precisa de ajuda |
+| `good first issue` | 🚀 | Ideal para iniciantes |
+| `question` | ❓ | Dúvida ou esclarecimento |
+| `duplicate` | 📑 | Issue ou PR repetido |
+| `invalid` | ❌ | Não é um problema válido |
+| `wontfix` | 🚫 | Não será corrigido |
+
+
+### 🔹 Como adicionar Labels em um Pull Request
+
+1. Abra seu Pull Request no GitHub  
+2. No lado direito, clique em **Labels**  
+3. Selecione uma ou mais etiquetas adequadas  
+4. Feche o menu — as labels ficam salvas automaticamente  
+
+📌 Exemplo de combinações comuns:
+- `bug + high priority`
+- `enhancement + help wanted`
+- `documentation + good first issue`
+
+
+### 🔹 Como criar novas Labels (dono do repositório)
+
+1. Vá até o repositório no GitHub  
+2. Clique em **Issues**  
+3. Clique em **Labels**  
+4. Clique em **New Label**  
+5. Defina:
+   - Nome (ex: `backend`, `frontend`, `testing`)  
+   - Cor  
+   - Descrição  
+6. Clique em **Create Label**
+
+
+### 🔹 Boas práticas com Labels
+
+- Use labels para **organizar o fluxo de trabalho**  
+- Padronize labels dentro do time  
+- Evite criar labels desnecessárias  
+- Combine labels para dar mais contexto  
+- Revise labels periodicamente para manter o projeto limpo  
+
+
+## 🔗 RELAÇÃO ENTRE ALIAS, PULL REQUESTS E LABELS
+
+| Ferramenta | Para que serve |
+|-----------|---------------|
+| **Git Alias** | Agiliza comandos no terminal |
+| **Pull Request** | Organiza e revisa mudanças no código |
+| **Labels** | Classifica e prioriza Issues e PRs |
+
+✅ Juntas, essas três práticas tornam o fluxo de trabalho mais profissional, organizado e colaborativo.
+
+💡 DICAS EXTRAS
+===========================
+• Sempre use **branches separadas** para cada feature/bugfix;
+• Faça commits pequenos e com mensagens claras;
+• Revisores devem analisar **cada linha alterada**; e
+• Use Pull Requests para manter o histórico do projeto **organizado e seguro**.

@@ -1,0 +1,77 @@
+📌 COMO USAR COMENTÁRIOS E APROVAÇÕES EM PULL REQUESTS ✅🖋️
+===========================================================
+
+1️⃣ ONDE COMENTAR NO PULL REQUEST ❓
+===========================
+Após abrir o Pull Request no GitHub 🐈‍⬛:
+
+• Vá até a aba "Files changed" (Arquivos alterados);
+• Navegue pelo código alterado;
+• Passe o mouse ao lado esquerdo da linha de código;
+• Clique no símbolo “+” que aparece;
+• Escreva seu comentário; e
+• Clique em "Add comment".
+
+===========================================================
+
+2️⃣ TIPOS DE COMENTÁRIOS 💬
+===========================
+
+🔹 Comentário geral:
+• Usado para feedback amplo sobre o PR inteiro;
+• Feito na aba "Conversation" (Conversa);
+• Exemplo:  
+  "Boa implementação! Só sugiro melhorar a nomenclatura das variáveis."
+
+🔹 Comentário em linha (inline):
+• Usado para sugerir mudanças específicas em uma linha de código  
+• Ideal para revisão técnica detalhada  
+• Exemplo:
+  "Aqui seria melhor usar uma função em vez de repetir esse código."
+
+===========================================================
+
+3️⃣ SUGESTÕES AUTOMÁTICAS (SUGGEST) 🤖
+===========================
+Você pode sugerir código diretamente no comentário usando:
+
+```suggestion
+codigo_corrigido_aqui()
+O autor do PR pode aceitar a sugestão com um clique.
+===========================================================
+
+4️⃣ COMO APROVAR UM PULL REQUEST ❓🤔
+Após revisar o código:
+• Clique em "Review changes" (Revisar alterações)
+• Você verá três opções:
+
+✅ Approve (Aprovar 🇧🇷)
+
+Use quando o código está pronto para merge
+Exemplo de comentário:
+"Aprovado! Código limpo e bem estruturado."
+🔧 Request changes (Solicitar mudanças)
+Use quando ainda há problemas ou melhorias necessárias
+Exemplo:
+"Por favor, ajuste a validação de entrada do usuário."
+💬 Comment (Apenas comentar)
+Use para dar feedback sem aprovar ou bloquear o PR
+• Depois clique em: "Submit review"
+===========================================================
+
+5️⃣ BOAS PRÁTICAS PARA COMENTÁRIOS
+• Seja respeitoso e profissional 🤝
+• Foque no código, não na pessoa 🖥️
+• Seja específico✅ ("O que melhorar❓" e "Por quê❓")
+• Se possível, ofereça soluções, não só críticas
+• Evite comentários vagos como "isso está ruim"
+
+===========================================================
+
+6️⃣ O QUE FAZER APÓS A APROVAÇÃO
+• O autor ou mantenedor pode clicar em:
+"Merge pull request"
+• Após o merge:
+
+A branch pode ser deletada (opcional)
+O código passa a fazer parte da branch principal
