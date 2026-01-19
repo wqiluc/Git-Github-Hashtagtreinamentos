@@ -1,6 +1,6 @@
 <h1 align="center">
   Git e GitHub – Hashtag Treinamentos<br>
-<img src="https://skillicons.dev/icons?i=git,github"/>
+<img src="https://skillicons.dev/icons?i=git,github" width="65"/>
 </h1>
 
 <p align="center">
