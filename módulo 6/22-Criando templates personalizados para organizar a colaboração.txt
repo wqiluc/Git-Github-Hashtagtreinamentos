@@ -1,0 +1,118 @@
+📌 CRIANDO TEMPLATES PERSONALIZADOS PARA ORGANIZAR A COLABORAÇÃO
+===========================================================
+
+🤔 O QUE SÃO TEMPLATES NO GITHUB?
+===========================
+• Templates são modelos prontos para padronizar Issues e Pull Requests 📝  
+• Ajudam a manter organização e qualidade nas contribuições  
+• Evitam informações faltando e mensagens confusas  
+• Facilitam a revisão e colaboração entre times 🤝  
+
+===========================================================
+
+1️⃣ ONDE CRIAR TEMPLATES NO REPOSITÓRIO
+===========================
+No seu repositório, crie a pasta:
+
+.github/
+
+Dentro dela, crie outra pasta chamada:
+
+ISSUE_TEMPLATE/
+
+Estrutura final:
+
+📁 seu-repositorio/
+├── .github/
+│ ├── ISSUE_TEMPLATE/
+
+===========================================================
+
+2️⃣ TEMPLATE PARA ISSUE (EXEMPLO)
+===========================
+Crie um arquivo:
+.github/ISSUE_TEMPLATE/bug-report.md
+
+Conteúdo sugerido:
+
+name: Reportar Bug
+description: Use este modelo para relatar um erro
+labels: bug
+🐞 Descrição do problema
+Explique claramente o que aconteceu.
+✅ Comportamento esperado
+O que deveria ter acontecido?
+❌ Comportamento atual
+O que aconteceu de fato?
+🔁 Passos para reproduzir
+🖥️ Ambiente
+Sistema:
+Navegador (se aplicável):
+Versão do app:
+
+===========================================================
+
+3️⃣ TEMPLATE PARA FEATURE (NOVA IDEIA)
+===========================
+Arquivo:
+.github/ISSUE_TEMPLATE/feature-request.md
+
+Exemplo:
+
+name: Nova funcionalidade
+description: Sugira uma melhoria ou nova feature
+labels: enhancement
+✨ Descrição da ideia
+Explique sua proposta.
+🤔 Por que isso é importante?
+Qual problema isso resolve?
+✅ Possível solução
+Se tiver, descreva uma sugestão técnica.
+
+===========================================================
+
+4️⃣ TEMPLATE PARA PULL REQUEST (PR)
+===========================
+Crie um arquivo na raiz do repositório:
+
+.github/pull_request_template.md
+
+Exemplo:
+
+🔧 O que foi feito?
+Descreva suas mudanças.
+✅ Como testar?
+Explique como validar suas alterações.
+📌 Issue relacionada
+Closes # (coloque o número da issue)
+⚠️ Observações
+Algo que o revisor precise saber?
+
+===========================================================
+
+5️⃣ COMO OS TEMPLATES APARECEM NO GITHUB
+===========================
+Quando alguém clicar em:
+• New Issue → verá opções baseadas nos seus templates  
+• New Pull Request → o formulário já virá preenchido com seu modelo  
+
+Isso padroniza todas as contribuições automaticamente ✅  
+
+===========================================================
+
+6️⃣ BOAS PRÁTICAS COM TEMPLATES
+===========================
+• Mantenha os templates simples e objetivos  
+• Use perguntas claras e diretas  
+• Evite exigir informações desnecessárias  
+• Atualize os templates conforme o projeto cresce  
+• Combine templates com Labels e Projects para organização total  
+
+===========================================================
+
+7️⃣ BENEFÍCIOS DOS TEMPLATES
+===========================
+• Melhora a qualidade das Issues e PRs  
+• Facilita a revisão de código  
+• Reduz retrabalho e confusão  
+• Organiza melhor o backlog e o fluxo de trabalho 🚀
