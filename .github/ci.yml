@@ -1,9 +1,16 @@
-Name: CI
+name: CI Básico
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo "GitHub Actions funcionando!"
+      - run: echo "CI funcionando com GitHub Actions!"

@@ -1,0 +1,154 @@
+5️⃣ GITHUB ACTIONS: CRIANDO E EXECUTANDO UM FLUXO BÁSICO DE CI/CD
+===========================================================
+
+🚀 O QUE É CI/CD?
+===========================================================
+CI/CD significa:
+
+• CI  = Continuous Integration (Integração Contínua)  
+• CD = Continuous Deployment/Delivery (Entrega ou Deploy Contínuo)
+
+Na prática:
+• Seu código é testado automaticamente 🤖;  
+• Erros são detectados mais cedo ❌; e  
+• O deploy pode ser feito de forma automática ✅. 
+
+===========================================================
+
+📁 ONDE FICA O WORKFLOW?
+===========================================================
+
+Todo fluxo do GitHub Actions fica dentro da pasta:
+
+.github/workflows/
+
+Dentro dela você cria arquivos .yml (YAML), por exemplo:
+
+.github/workflows/ci.yml
+
+===========================================================
+
+⚙️ PASSO 1 — CRIAR O ARQUIVO DE WORKFLOW
+===========================================================
+
+Crie o arquivo:
+
+.github/workflows/ci.yml
+
+===========================================================
+
+🧠 PASSO 2 — DEFINIR QUANDO ELE VAI RODAR
+===========================================================
+
+Dentro do arquivo, começamos dizendo quando o workflow será executado:
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+Isso significa:
+• O workflow roda quando alguém der push na main  
+• Também roda quando abrir um pull request para a main  
+
+===========================================================
+
+🛠️ PASSO 3 — DEFINIR O JOB
+===========================================================
+
+Agora definimos o trabalho principal:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+Isso significa:
+• Criamos um job chamado "build"🔨  
+• Ele será executado em um servidor Ubuntu do GitHub✅ 
+
+===========================================================
+
+👣 PASSO 4 — DEFINIR AS ETAPAS (STEPS)
+===========================================================
+
+Dentro do job, adicionamos as etapas:
+
+steps:
+  - uses: actions/checkout@v3
+  - run: echo "Executando CI com GitHub Actions!"
+
+O que isso faz ❓:
+• checkout → baixa seu código no servidor do GitHub ⬇️
+• run → executa um comando no terminal 🔁
+
+===========================================================
+
+📦 EXEMPLO COMPLETO DO WORKFLOW (BÁSICO)
+===========================================================
+
+Arquivo: .github/workflows/ci.yml
+
+name: CI Básico
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "CI funcionando com GitHub Actions!"
+
+===========================================================
+
+▶️ PASSO 5 — EXECUTAR O WORKFLOW
+===========================================================
+
+Depois de criar o arquivo:
+
+1️⃣ Faça git add .  
+2️⃣ git commit -m "Add workflow de CI"  
+3️⃣ git push origin main  
+
+O GitHub Actions irá rodar automaticamente 🚀
+
+===========================================================
+
+📊 PASSO 6 — VERIFICAR A EXECUÇÃO
+===========================================================
+
+No GitHub, vá em:
+
+• Aba "Actions" no seu repositório 🪟
+• Clique no workflow executado  ⬆️
+• Veja os logs de cada etapa 👁️‍🗨️
+
+===========================================================
+
+🎯 O QUE ISSO REPRESENTA NA PRÁTICA?
+===========================================================
+
+Você acabou de:
+• Criar um pipeline básico de CI  
+• Automatizar uma verificação no seu código  
+• Dar o primeiro passo para CI/CD profissional  
+
+===========================================================
+
+✨ PRÓXIMO NÍVEL (SE QUISER)
+===========================================================
+
+Você pode depois✅:
+• Rodar testes automáticos;  
+• Verificar formatação do código;  
+• Fazer deploy automático para um site; e 
+• Enviar notificações de erro.
