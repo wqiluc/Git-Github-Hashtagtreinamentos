@@ -136,8 +136,6 @@ Elas ajudam times e colaboradores a entender rapidamente:
 
 ✅ Juntas, essas três práticas tornam o fluxo de trabalho mais profissional, organizado e colaborativo.
 
-
-
 💡 DICAS EXTRAS
 ===========================
 • Sempre use **branches separadas** para cada feature/bugfix;
