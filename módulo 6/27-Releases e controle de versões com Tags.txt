@@ -1,0 +1,137 @@
+RELEASES E CONTROLE DE VERSÕES COM TAGS
+===========================================================
+
+🏷️ O QUE SÃO TAGS NO GIT?
+===========================================================
+
+Tags são marcadores usados para indicar versões específicas do seu projeto, como:
+
+• v1.0.0  
+• v2.1.3  
+• v3.0.0-beta  
+
+Elas servem para:
+• Marcar versões estáveis ✅  
+• Facilitar o histórico do projeto 📜  
+• Identificar releases importantes 🚀  
+
+===========================================================
+
+📌 TIPOS DE TAGS
+===========================================================
+
+Existem dois tipos principais:
+
+🔹 TAG LEVE (Lightweight)
+É apenas um ponteiro para um commit.
+
+Comando:
+git tag v1.0.0
+
+🔹 TAG ANOTADA (Recommended ⭐)
+Guarda autor, data e mensagem.
+
+Comando:
+git tag -a v1.0.0 -m "Primeira versão estável"
+
+===========================================================
+
+📋 LISTANDO TAGS
+===========================================================
+
+Para ver todas as tags:
+git tag
+
+Para buscar uma tag específica:
+git tag -l "v1.*"
+
+===========================================================
+
+📤 ENVIANDO TAGS PARA O GITHUB
+===========================================================
+
+Enviar uma tag específica:
+git push origin v1.0.0
+
+Enviar todas as tags:
+git push --tags
+
+===========================================================
+
+🗑️ REMOVENDO TAGS (SE PRECISAR)
+===========================================================
+
+Excluir tag local:
+git tag -d v1.0.0
+
+Excluir tag no remoto:
+git push origin --delete v1.0.0
+
+===========================================================
+
+📦 O QUE É UMA RELEASE NO GITHUB?
+===========================================================
+
+Release é uma versão oficial do seu projeto no GitHub, normalmente associada a uma tag.
+
+Ela permite:
+• Baixar arquivos do projeto; 📥  
+• Ver notas de versão; e 📝  
+• Distribuir versões de forma organizada. 🚀  
+
+===========================================================
+
+🛠️ COMO CRIAR UMA RELEASE NO GITHUB
+===========================================================
+
+1️⃣ Vá até seu repositório no GitHub  
+2️⃣ Clique em "Releases" (lado direito) 🏷️  
+3️⃣ Clique em "Create a new release" ➕  
+4️⃣ Escolha uma tag (ex: v1.0.0)  
+5️⃣ Adicione um título (ex: “Versão 1.0.0”)  
+6️⃣ Escreva as notas da versão (Release Notes)  
+7️⃣ Clique em "Publish release" ✅  
+
+===========================================================
+
+📝 EXEMPLO DE RELEASE NOTES
+===========================================================
+
+## 🚀 v1.0.0 — Primeira versão estável
+
+### ✨ Novidades:
+• Login implementado;
+• Sistema de cadastro; e  
+• Interface inicial finalizada✅  
+
+### 🐞 Correções:
+• Bug no formulário corrigido✅  
+• Melhorias de performance 🎤
+
+### ⚠️ Observações:
+• Versão compatível apenas com Python 3.10+
+
+===========================================================
+
+📌 BOAS PRÁTICAS COM TAGS E RELEASES
+===========================================================
+
+• Use padrão semântico: vMAJOR.MINOR.PATCH (ex: v2.3.1); 🔢  
+• Sempre crie uma tag antes da release; 🏷️  
+• Escreva notas claras e organizadas; e 📝  
+• Evite apagar tags já publicadas. ❌  
+
+===========================================================
+
+🎯 RESUMO RÁPIDO
+===========================================================
+
+Tags são para:
+✅ Marcar versões;
+✅ Organizar histórico; e 
+✅ Facilitar releases. 
+
+Releases são para:
+✅ Distribuir versões;  
+✅ Documentar mudanças; e 
+✅ Profissionalizar seu projeto. 
