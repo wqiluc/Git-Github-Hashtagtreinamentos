@@ -1,7 +1,6 @@
 {
   "name": "ci-test",
   "scripts": {
-    "test": "echo Ok"
-  }
+    "test": "echo Ok"}
 }
 
