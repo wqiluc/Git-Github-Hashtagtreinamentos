@@ -180,3 +180,48 @@ git bisect start
 git bisect good <hash>    # Commit sem bug
 git bisect bad             # Commit com bug
 git bisect reset           # Finaliza bisect
+
+      # ===================== 🔖 TODOS OS COMANDOS DE GIT TAG =====================
+      
+git tag                                               # lista todas as tags locais
+git tag -l "v1.*"                                    # lista tags filtrando por padrão
+
+git tag v1.0.0                                       # cria uma tag leve (lightweight)
+git tag -a v1.0.0 -m "Primeira versão estáável"     # cria uma tag anotada (recomendada)
+
+git tag v1.0.0 <commit-hash>                        # cria uma tag leve em um commit específico
+git tag -a v1.0.0 <commit-hash> -m "msg"           # cria uma tag anotada em um commit específico
+
+git show v1.0.0                                     # mostra detalhes da tag e do commit associado
+
+git tag -d v1.0.0                                   # apaga uma tag local
+git push origin --delete v1.0.0                     # apaga a tag no GitHub (remoto)
+
+git push origin v1.0.0                              # envia uma tag específica para o GitHub
+git push --tags                                     # envia todas as tags locais para o GitHub
+
+git tag v2.0.0 v1.0.0                               # cria nova tag apontando para o mesmo commit (forma de “renomear”)
+git tag -d v1.0.0                                   # apaga a tag antiga localmente
+git push origin --delete v1.0.0                     # apaga a tag antiga no remoto
+git push origin v2.0.0                              # envia a nova tag para o remoto
+
+git tag -s v1.0.0 -m "Release assinada"            # cria uma tag assinada com GPG
+
+git rev-parse v1.0.0                                # mostra o hash do commit apontado pela tag
+
+git log --oneline --decorate --tags                 # mostra histórico com tags associadas aos commits
+
+git tag --contains <commit-hash>                    # mostra quais tags contêm esse commit
+
+git tag -n                                          # lista tags mostrando também a mensagem das tags anotadas
+git tag -n3                                         # mostra até 3 linhas da mensagem de cada tag
+
+git tag -f v1.0.0 <commit-hash>                    # força a recriação de uma tag existente em outro commit
+
+git push origin :refs/tags/v1.0.0                  # outra forma de deletar tag no remoto
+
+                # ===================== RESUMO RÁPIDO ===================== #
+
+git tag -a v1.0.0 -m "Release"                     # criar tag recomendada
+git push origin v1.0.0                             # enviar tag para GitHub
+git show v1.0.0                                    # visualizar tag
