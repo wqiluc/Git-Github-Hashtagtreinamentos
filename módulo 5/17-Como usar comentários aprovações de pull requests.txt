@@ -1,9 +1,9 @@
-📌 COMO USAR COMENTÁRIOS E APROVAÇÕES EM PULL REQUESTS
+📌 COMO USAR COMENTÁRIOS E APROVAÇÕES EM PULL REQUESTS ✅🖋️
 ===========================================================
 
-1️⃣ ONDE COMENTAR NO PULL REQUEST
+1️⃣ ONDE COMENTAR NO PULL REQUEST ❓
 ===========================
-Após abrir o Pull Request no GitHub:
+Após abrir o Pull Request no GitHub 🐈‍⬛:
 
 • Vá até a aba "Files changed" (Arquivos alterados);
 • Navegue pelo código alterado;
@@ -14,16 +14,16 @@ Após abrir o Pull Request no GitHub:
 
 ===========================================================
 
-2️⃣ TIPOS DE COMENTÁRIOS
+2️⃣ TIPOS DE COMENTÁRIOS 💬
 ===========================
 
-🔹 Comentário geral
+🔹 Comentário geral:
 • Usado para feedback amplo sobre o PR inteiro;
 • Feito na aba "Conversation" (Conversa);
 • Exemplo:  
   "Boa implementação! Só sugiro melhorar a nomenclatura das variáveis."
 
-🔹 Comentário em linha (inline)
+🔹 Comentário em linha (inline):
 • Usado para sugerir mudanças específicas em uma linha de código  
 • Ideal para revisão técnica detalhada  
 • Exemplo:
@@ -31,7 +31,7 @@ Após abrir o Pull Request no GitHub:
 
 ===========================================================
 
-3️⃣ SUGESTÕES AUTOMÁTICAS (SUGGEST)
+3️⃣ SUGESTÕES AUTOMÁTICAS (SUGGEST) 🤖
 ===========================
 Você pode sugerir código diretamente no comentário usando:
 
@@ -45,7 +45,7 @@ Após revisar o código:
 • Clique em "Review changes" (Revisar alterações)
 • Você verá três opções:
 
-✅ Approve (Aprovar)
+✅ Approve (Aprovar 🇧🇷)
 
 Use quando o código está pronto para merge
 Exemplo de comentário:
