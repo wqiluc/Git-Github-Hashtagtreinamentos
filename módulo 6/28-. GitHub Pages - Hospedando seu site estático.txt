@@ -1,0 +1,102 @@
+# 🌐 GitHub Pages — Hospedando seu site estático
+==========================================
+## 🌐 O que é GitHub Pages?
+==========================================
+
+GitHub Pages é um serviço gratuito do GitHub que permite:
+- Hospedar sites estáticos 📄;
+- Publicar HTML, CSS e JavaScript 🌍; e
+- Usar domínio do GitHub: seu-usuario.github.io.
+
+==========================================
+## 📁 O que você precisa ter?
+==========================================
+Antes de começar, você precisa de:
+- Um repositório no GitHub; e
+- Um arquivo principal chamado: index.html.
+
+Esse arquivo será a página inicial do seu site.
+
+==========================================
+## 🛠️ Opção 1 — Usando um repositório comum
+==========================================
+
+1. Vá até seu repositório no GitHub;
+2. Clique em "Settings" ⚙️; e
+3. Vá em "Pages" 🌐.
+
+==========================================
+## ⚙️ Configurando o GitHub Pages
+==========================================
+
+Em "Source", escolha:
+- Branch: main; e
+- Pasta: / (root).
+
+Depois clique em: Save ✅.
+
+==========================================
+## ⏳ Aguarde a publicação
+==========================================
+
+O GitHub vai gerar seu site automaticamente.
+
+Você verá um link parecido com:
+https://seu-usuario.github.io/seu-repositorio/
+
+==========================================
+## 🧪 Testando seu site
+==========================================
+
+Abra o link no navegador e verifique:
+- Se o index.html carregou corretamente; e
+- Se imagens e estilos estão funcionando.
+
+==========================================
+## 📂 Opção 2 — Repositório especial (portfólio)
+==========================================
+
+Se você quiser um site pessoal no endereço:
+https://seu-usuario.github.io
+
+Você deve criar um repositório chamado:
+seu-usuario.github.io
+
+Dentro dele coloque:
+- index.html; e
+- Seus arquivos CSS, imagens, etc.
+
+Depois habilite Pages da mesma forma em Settings → Pages.
+
+==========================================
+## 📝 Exemplo simples de index.html
+==========================================
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Site</title>
+</head>
+<body>
+  <h1>Olá, GitHub Pages! 🚀</h1>
+  <p>Meu primeiro site hospedado no GitHub.</p>
+</body>
+</html>
+==========================================
+🔄 Atualizando o site
+==========================================
+Sempre que você fizer:
+
+git add .;
+git commit -m "Atualiza site"; e
+git push origin main.
+O GitHub Pages atualizará seu site automaticamente.
+==========================================
+
+🎯 Vantagens do GitHub Pages
+==========================================
+GitHub Pages é:
+✅ Simples;
+✅ Gratuito;
+✅ Rápido; e
+✅ Perfeito para sites estáticos.
