@@ -51,11 +51,11 @@ Git-Github-Hashtagtreinamentos<img src="https://skillicons.dev/icons?i=git,githu
 │   └── LICENSE_MIT📜
 │
 ├── modulo-1/
-│   └── 1.txt 📄
+│   └── 1.txt📄
 │
 ├── modulo-2/
-│   ├── 2.pdf 
-│   └── 2-9.txt 📄
+│   ├── 2.pdf <img src="https://img.shields.io/badge/PDF-EA4335?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" height="15"/>
+│   └── 2-9.txt📄
 │
 ├── modulo-3/
 │   └── 10-14.txt📄
@@ -67,7 +67,7 @@ Git-Github-Hashtagtreinamentos<img src="https://skillicons.dev/icons?i=git,githu
 │   └── 16-19.txt📄
 │
 ├── modulo-6/
-│   ├── 20-29.txt 📄
+│   ├── 20-29.txt📄
 │   ├── index.html<img src="https://skillicons.dev/icons?i=html" width="15"/>
 │   ├── index.js<img src="https://skillicons.dev/icons?i=js" width="15"/>
 │   ├── styles.css<img src="https://skillicons.dev/icons?i=css" width="15"/>
