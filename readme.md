@@ -86,7 +86,7 @@ Git-Github-Hashtagtreinamentos<img src="https://skillicons.dev/icons?i=git,githu
 <br>
 
 <a href="https://www.instagram.com/lucpaguetti/">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=black">
 </a>
 <a href="https://github.com/wqiluc">
   <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white">
