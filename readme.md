@@ -156,6 +156,26 @@ Git-Github-Hashtagtreinamentos<img src="https://skillicons.dev/icons?i=git,githu
 • Abra o VS Code após a instalação para começar a usar.
 </p>
 
+<h2 align="center">
+Certificado Git e Github da Hashtag Treinamentos: <br>
+<img src="https://skillicons.dev/icons?i=git,github" width="65"/>
+</h2>
+Esta seção apresenta o certificado de conclusão do curso de Git & GitHub da Hashtag Treinamentos, que valida formalmente os conhecimentos aplicados ao longo deste repositório. <br><br>
+
+<p align="center">
+    <img src="img/Certificado.Jpeg" alt="Certificado Git e GitHub - Hashtag Treinamentos" width="420"/>
+  </a>
+</p>
+
+O certificado comprova a consolidação prática de conceitos fundamentais, como:
+- controle de versionamento com Git<img src="https://skillicons.dev/icons?i=git" width="12"/>;  
+- uso profissional do GitHub<img src="https://skillicons.dev/icons?i=github" width="12"/>;  
+- organização de projetos e histórico de commits🖋️✅;  
+- aplicação de boas práticas como Conventional Commits😉;  
+- compreensão de fluxos de trabalho colaborativos e versionamento semântico🚥.
+
+<strong>Todo o conteúdo documentado neste repositório foi desenvolvido com base nos aprendizados adquiridos durante o curso, conectando teoria, prática e padronização profissional.</strong>
+
 
 
 <h1 align="center">
