@@ -44,6 +44,7 @@ Git-Github-Hashtagtreinamentos<img src="https://skillicons.dev/icons?i=git,githu
 ├── img/
 │   ├── Hashtag_logo.jpeg <img src="https://img.shields.io/badge/Images-JPEG-orange?style=for-the-badge&logo=google&logoColor=white" height="15"/>
 │   └── Hashtag_logo2.jpeg <img src="https://img.shields.io/badge/Images-JPEG-orange?style=for-the-badge&logo=google&logoColor=white" height="15"/>
+│   └── Certificado.jpeg <img src="https://img.shields.io/badge/Images-JPEG-orange?style=for-the-badge&logo=google&logoColor=white" height="15"/>
 │
 ├── license/
 │   └── LICENSE_MIT📜
