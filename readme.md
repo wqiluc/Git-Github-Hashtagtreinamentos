@@ -188,6 +188,7 @@ O certificado comprova a consolidação prática de conceitos fundamentais, como
 
 
 ```bash
+repositório no Github = "https://github.com/conventional-commits/conventionalcommits.org"
 site = "https://www.conventionalcommits.org/pt-br/v1.0.0/" 
 # Ajuda a entender as mensagens de commit 🖊️
 
